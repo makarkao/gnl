@@ -39,7 +39,7 @@ char	*get_next_line(int fd)
 	static t_gnlsv	v;
 	t_gnlnsv		x;
 
-	if (fd < 0 || BUFFER_SIZE = 0)
+	if (fd < 0 || BUFFER_SIZE == 0)
 		return (NULL);
 	(1) && (x.j = 0, x.l = NULL);
 	if (v.s[v.k] == '\0')
