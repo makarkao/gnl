@@ -39,7 +39,7 @@ char	*get_next_line(int fd)
 	static t_gnlsv	v[FOPEN_MAX];
 	t_gnlnsv		x;
 
-	if (fd < 0 || BUFFER_SIZE = 0)
+	if (fd < 0 || BUFFER_SIZE == 0 || fd >= FOPEN_MAX)
 		return (NULL);
 	(1) && (x.j = 0, x.l = NULL);
 	if (v[fd].s[v[fd].k] == '\0')
